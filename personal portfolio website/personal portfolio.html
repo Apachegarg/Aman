@@ -1,0 +1,89 @@
+<html>
+<head>
+<title> Portfolio website. </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+<div class="container">
+<nav>
+<h1><span> Aman</span> </h1>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Service</a></li>
+<li><a href="#">Portfolio</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+<div class="header-text">
+<p > Website <span>devloper.</span> </p>
+<h1> Hi , i'm<span> Aman</span> <br>Shukla  from Bihar. </br></h1>
+</div>
+</div>
+</div>
+------------------------------ about
+<div id="About">
+<div class="container">
+<div class="row">
+<div class="about-col-1">
+<img src="about.jpeg">
+</div>
+<div class="about-col-2">
+<h1 class="subtitle"> About me. </h1>
+<p> Hi, i'm Aman Shukla ,i'm profficent in<span> HTML,CSS,JAVA SCRIPT</span><br><br> and i have begineer level-level profficency in C language.</p>
+<div class=tab-titles>
+<p class="tab-links" active-link onclick="opentab('skills')">Skills</p>
+<p class="tab-links" onclick="opentab('Exprience')">Expreince</p>
+<p class="tab-links"onclick="opentab('Education')">Education</p>
+</div>
+<div class="table-content active-tab" id="skills">
+<ul>
+<li><span>web devloper.</span><br>Website  building. </li>
+<li><span>UI/UX</span><br>Web designer.</li>
+<li><span>C language</span><br>Basics programming. </li>
+</ul>
+</div>
+<div class="table-content" id="Expreince">
+<ul>
+<li><span>Fresher.</span></li>
+</ul>
+</div>
+<div class="table-content" id="Education">
+<ul>
+<li><span>2018-2019</span><br>Class X</li>
+<li><span>2021-2022</span><br> Class 12</li>
+<li><span>2022-Current</span><br>Guru Jambheshwar university of Science and Technology</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+
+var tablinks = document.getelementsbyclassname("tab-links");
+var tablinks = document.getelementsbyclassname("tab-contents");
+function openTab(tabnname){
+for(tablink of tablinks){
+tablink.Classlist.remove("active-link");
+}
+for(tablink of tablcontent){
+tabcontent.classlist.remove("active-link");
+}
+}
+</script>
+
+
+
+
+
+
